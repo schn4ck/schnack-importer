@@ -1,0 +1,35 @@
+{
+  "name": "schnack-importer",
+  "version": "0.0.1",
+  "description": "Import Disqus and Wordpress comments to your schnack instance",
+  "main": "index.js",
+  "bin": {
+    "schnack-importer": "$npm_package_main"
+  },
+  "scripts": {
+    "test": "node index.js disqus.xml comments.db"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schn4ck/schnack-importer.git"
+  },
+  "keywords": [
+    "schnack",
+    "disqus",
+    "wordpress",
+    "importer",
+    "comments",
+    "commenting"
+  ],
+  "author": "g-div",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/schn4ck/schnack-importer/issues"
+  },
+  "homepage": "https://github.com/schn4ck/schnack-importer#readme",
+  "dependencies": {
+    "sqlite": "^2.9.1",
+    "turndown": "^4.0.1",
+    "xml2js": "^0.4.19"
+  }
+}
