@@ -1,4 +1,4 @@
-# Schnack importer
+# schnack importer
 
 Import comments from Disqus and Wordpress XML dumps to [schnack](https://schnack.cool)!
 
