@@ -7,7 +7,7 @@
     "schnack-importer": "$npm_package_main"
   },
   "scripts": {
-    "test": "node index.js disqus.xml comments.db"
+    "test": "node $npm_package_main test/disqus.xml test/comments.db"
   },
   "repository": {
     "type": "git",
