@@ -1,5 +1,5 @@
 {
-  "name": "schnack-importer",
+  "name": "@schnack/importer",
   "version": "0.0.1",
   "description": "Import Disqus and Wordpress comments to your schnack instance",
   "main": "index.js",

@@ -9,7 +9,7 @@ Import comments from Disqus and Wordpress XML dumps to [schnack](https://schnack
 Install the module locally or globally (`-g`):
 
 ```
-npm install schnack-importer
+npm install @schnack/importer
 ```
 
 ### Using npx (npm >= 5.2)
